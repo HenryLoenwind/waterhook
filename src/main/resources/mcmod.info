@@ -1,0 +1,16 @@
+[
+{
+  "modid": "waterhooks",
+  "name": "Water Hooks",
+  "description": "Adds Event for Infinite Water Source Forming",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Henry Loenwind"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
