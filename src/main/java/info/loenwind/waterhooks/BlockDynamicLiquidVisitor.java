@@ -1,6 +1,5 @@
-package info.loenwind.waterhooks.asm;
+package info.loenwind.waterhooks;
 
-import info.loenwind.waterhooks.WaterHooksMod;
 import net.minecraft.block.material.Material;
 import net.minecraft.launchwrapper.IClassTransformer;
 import net.minecraft.launchwrapper.Launch;
