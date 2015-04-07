@@ -15,7 +15,7 @@ public class WaterHooksCoreMod implements IFMLLoadingPlugin {
 
 	@Override
 	public String[] getASMTransformerClass() {
-		return new String[] { "info.loenwind.waterhooks.asm.BlockDynamicLiquidVisitor" };
+		return new String[] { "info.loenwind.waterhooks.BlockDynamicLiquidVisitor" };
 	}
 
 	@Override
