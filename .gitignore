@@ -32,21 +32,22 @@ local.properties
 ## Forge
 #################
 
-/bin
-.gradle/
-build/
-eclipse/
-gradle/
+**/bin/
+**/.gradle/
+**/build/
+**/eclipse/
+**/gradle/
 CREDITS-fml.txt
 LICENSE-fml.txt
 MinecraftForge-Credits.txt
 MinecraftForge-License.txt
 README.txt
-gradlew
-gradlew.bat
-.classpath
-.project
-.settings/
+**/gradlew
+**/gradlew.bat
+**/.classpath
+**/.project
+**/.settings/
 out/*
 forge-*-changelog.txt
-lib/*
+**/lib/*
+**/run/
