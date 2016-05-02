@@ -17,7 +17,7 @@ buildscript {
 
 apply plugin: 'net.minecraftforge.gradle.forge'
 
-version = "2.2.0"
+version = "2.2.1"
 group= "info.loenwind.waterhooks" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "waterhooks"
 

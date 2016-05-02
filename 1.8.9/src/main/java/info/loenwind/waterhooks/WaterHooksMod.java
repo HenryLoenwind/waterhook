@@ -12,7 +12,7 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 public class WaterHooksMod
 {
 	public static final String MODID = "waterhooks";
-    public static final String VERSION = "2.2.0";
+    public static final String VERSION = "2.2.1";
 
     private static final ConfigHandler CONFIG_HANDLER = new ConfigHandler();
     
@@ -26,6 +26,8 @@ public class WaterHooksMod
     @SubscribeEvent
     public void onWaterForming(WaterFormEvent event)
     {
-        event.setCanceled(Config.disableInfiniteWaterGlobally.getBoolean());
+        if (Config.disableInfiniteWaterGlobally.getBoolean()) {
+            event.setCanceled(true);
+          }
     }
 }
